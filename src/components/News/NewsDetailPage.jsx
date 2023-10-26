@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { GROUPID, IMAGES_DOMAIN } from "../../Services";
 import { FormatDateJsonPro } from "../../utils";
 import { useGlobalState } from "../../hooks";
 import { Link, useParams } from "react-router-dom";
