@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { GROUPID, IMAGES_DOMAIN, callApi } from "../../services/Api";
+import { GROUPID, callApi } from "../../services/Api";
 import { Button, Carousel as Ca } from "antd";
 import {
   LeftOutlined,

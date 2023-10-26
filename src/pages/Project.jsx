@@ -55,7 +55,7 @@ export const Project = () => {
         return (
           <div
             class="grid md:grid-cols-2 gap-4  p-4 mt-10 shadow-xl rounded-md"
-            key={x.NewsId}
+            key={a.NewsId}
           >
             <div class="">
               <div className=" font-medium text-2xl text-main line-clamp-2">
