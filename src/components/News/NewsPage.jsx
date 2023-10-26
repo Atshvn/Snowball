@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
-import { GROUPID, IMAGES_DOMAIN, callApi } from "../../services/Api";
 import { FormatDateJsonPro } from "../../utils";
 import { Link } from "react-router-dom";
 import { useGlobalState } from "../../hooks";
-import { addNews } from "../../store";
 import { Avatar, Breadcrumb, Card } from "antd";
 import { HomeOutlined, UserOutlined } from "@ant-design/icons";
 
